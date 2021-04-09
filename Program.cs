@@ -20,31 +20,31 @@ namespace SystemTextJsonEnumArraySerializingIssue
 	{
 		public static void Main()
 		{
-			SerializeClassArrayNewtonsoft();
-			SerializeEnumArrayNewtonsoft();
+			//SerializeClassArrayNewtonsoft();
+			//SerializeEnumArrayNewtonsoft();
 
-			//try
-			//{
-			//	SerializeClassArray();
-			//}
-			//catch (Exception e)
-			//{
-			//	Console.WriteLine(e);
-			//}
+            try
+            {
+                SerializeClassArray();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
 
-			//Console.WriteLine();
-			//Console.WriteLine();
-			//Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
 
-			//try
-			//{
-			//	SerializeEnumArray();
-			//}
-			//catch (Exception e)
-			//{
-			//	Console.WriteLine(e);
-			//}
-		}
+            try
+            {
+                SerializeEnumArray();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+        }
 
 		private static void SerializeClassArray()
 		{
